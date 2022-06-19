@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Portfolio all in 1</title>
+  </head>
+  <body>
+    <div class="portfolio">
+      <header class="header">
+        <nav class="header__nav">
+          <h2 class="header__name">Alex Di</h2>
+          <h1 class="header__logo">
+            Portfolio
+            <p class="header__logo-text">all in one</p>
+          </h1>
+          <div class="burger">
+            <span></span>
+          </div>
+          <div class="header__menu">
+            <div class="header__contact">
+              <h3 class="header__title">Contact</h3>
+              <p class="header__email">aleksandrdimov92@gmail.com</p>
+            </div>
+            <div class="header__social">
+              <h3 class="header__title">Social</h3>
+              <a
+                href="https://www.linkedin.com/in/aleksandr-dimov-b7166b21a/"
+                target="_blank"
+              >
+                <img
+                  class="header__icon"
+                  src="assets/images/icon_linkedIn.png"
+                  alt="LinkedIn"
+                />
+              </a>
+              <a href="https://github.com/aleksandrdimov" target="_blank">
+                <img
+                  class="header__icon"
+                  src="assets/images/icon_github.svg"
+                  alt="GitHub"
+                />
+              </a>
+            </div>
+          </div>
+        </nav>
+        <main>
+          <section class="page restoraunt">
+            <div class="details">
+              <h3 class="details__title">name:<span>the tasteat </span></h3>
+              <h4 class="details__skills">skills:<span>sass svg js</span></h4>
+              <p class="details__date">dev date:<span>03/06/2022</span></p>
+            </div>
+            <!-- <div class="details">
+              <div class="details__item">
+                <h3>name:</h3>
+                <h4>skills:</h4>
+                <p>dev date:</p>
+              </div>
+              <div>
+                <h3 class="details__title">the tasteat</h3>
+                <h4 class="details__skills">sass svg js</h4>
+                <p class="details__date">03/06/2022</p>
+              </div>
+            </div> -->
+            <div class="screenshot">
+              <a href="pages/Tasteat/app/index.html" target="_blank">
+                <img
+                  src="assets/images/TastEat_left.png"
+                  alt="screen"
+                  class="screenshot__left"
+                />
+                <img
+                  src="assets/images/TastEat_right.png"
+                  alt="screen"
+                  class="screenshot__right"
+                />
+              </a>
+              <span class="photo">click photo!</span>
+            </div>
+          </section>
+          <section class="page meta">
+            <div class="details">
+              <h3 class="details__title">name:<span>Meta</span></h3>
+              <h4 class="details__skills">skills:<span>sass js</span></h4>
+              <p class="details__date">dev date:<span>10/06/2022</span></p>
+            </div>
+            <div class="screenshot">
+              <a href="pages/Meta/app/index.html" target="_blank">
+                <img
+                  src="assets/images/Meta_left.png"
+                  alt="screen"
+                  class="screenshot__left"
+                />
+                <img
+                  src="assets/images/Meta_right.png"
+                  alt="screen"
+                  class="screenshot__right"
+                />
+              </a>
+              <span class="photo photo__meta">click photo!</span>
+            </div>
+          </section>
+          <section class="page list">
+            <div class="details">
+              <h3 class="details__title">name:<span>Shopping List</span></h3>
+              <h4 class="details__skills">skills:<span>react svg</span></h4>
+              <p class="details__date">dev date:<span>02/05/2022</span></p>
+            </div>
+            <div class="screenshot">
+              <img
+                src="assets/images/shopping_list_left.png"
+                alt="screen"
+                class="screenshot__left"
+              />
+              <img
+                src="assets/images/shopping_list_right.png"
+                alt="screen"
+                class="screenshot__right"
+              />
+            </div>
+          </section>
+          <div class="dot">
+            <div class="dot-1">
+              <svg
+                class="dot__slide js-active"
+                width="20"
+                height="20"
+                viewbox="0 0 20 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle cx="10" cy="10" r="10" fill="white" />
+              </svg>
+              <h4 class="dot__number">01</h4>
+            </div>
+            <div class="dot-2">
+              <svg
+                class="dot__slide"
+                width="20"
+                height="20"
+                viewbox="0 0 20 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle cx="10" cy="10" r="10" fill="white" />
+              </svg>
+              <h4 class="dot__number">02</h4>
+            </div>
+            <div class="dot-3">
+              <svg
+                class="dot__slide"
+                width="20"
+                height="20"
+                viewbox="0 0 20 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle cx="10" cy="10" r="10" fill="white" />
+              </svg>
+              <h4 class="dot__number">03</h4>
+            </div>
+          </div>
+        </main>
+      </header>
+    </div>
+
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js"
+    ></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
