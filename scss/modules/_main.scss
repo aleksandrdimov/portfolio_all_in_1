@@ -179,12 +179,13 @@
     font-size: 20px;
     color: rgb(225, 177, 104);
     background: transparent;
-    padding: 10px 20px;
+    padding: 10px 10px;
     border: 1px solid rgb(225, 177, 104);
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     opacity: 0;
+    max-width: 170px;
 
     &__meta {
         color: #8DFD1B;
@@ -408,6 +409,13 @@
         & img {
             height: 300px;
         }
+    }
+
+    .photo {
+        font-size: 16px;
+        padding: 10px 10px;
+        max-width: 130px;
+        width: 100%;
     }
 
     .details {
