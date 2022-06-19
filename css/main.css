@@ -281,7 +281,8 @@ img {
       -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   opacity: 0;
-  max-width: 170px;
+  max-width: 160px;
+  width: 100%;
 }
 
 .photo__meta {
